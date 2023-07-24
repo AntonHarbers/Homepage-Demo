@@ -1,0 +1,43 @@
+
+#AboutContainer{
+    background-color: #faf9f617;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    min-height: 500px;
+    height: 50vh;
+    max-height: 1000px;
+    transform: rotate(1deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--offwhite);
+    animation: aboutRotation 10s alternate .1s infinite;
+    box-shadow: 0px 0px 10px 0px #fff;
+}
+
+@keyframes aboutRotation {
+    from{
+        transform: rotate(1deg);
+    }
+    to{
+        transform: rotate(-2deg);
+    }
+}
+
+div#AboutContainer h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+div#AboutContainer h3{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    min-width: 300px;
+    max-width: 50vw;
+    width: 80%;
+}
