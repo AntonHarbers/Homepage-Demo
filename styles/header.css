@@ -6,6 +6,13 @@ img{
     transform: rotate(-25deg);
 }
 
+header>h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #FAF9F6;
+}
+
 @keyframes logoAnim {
     0%{
         transform: rotate(-25deg);

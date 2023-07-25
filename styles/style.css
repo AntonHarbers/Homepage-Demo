@@ -1,5 +1,7 @@
 @import url(header.css);
 @import url(about.css);
+@import url(work.css);
+@import url(contact.css);
 
 :root{
     --primary: #000;
