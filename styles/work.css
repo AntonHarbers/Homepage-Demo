@@ -16,6 +16,112 @@
     box-shadow: 0px 0px 10px 0px #fff;
 }
 
+#WorkContainer>h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #FAF9F6;
+    text-shadow: 0px 0px 10px #FAF9F6;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.WorkItemContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 1rem;
+}  
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.WorkImage{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.WorkInfo{
+    padding-top: 1rem;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.WorkLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 1rem;
+}
+
+.WorkLink{
+    background-color: transparent;
+}
+
+.WorkLinkImage{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+}
+
+.WorkLinkImage:hover{
+    opacity: 75%;
+}
+
+.WorkInfo>h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #FAF9F6;
+    text-shadow: 0px 0px 10px #FAF9F6;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.WorkInfo>p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #FAF9F6;
+    text-shadow: 0px 0px 10px #FAF9F6;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+
+/* <h2>My Work</h2>
+       
+          <div class="WorkInfo">
+            <h3>Weather App</h3>
+            <p>Weather app made with HTML, CSS and Javascript</p>
+                          <a class="WorkLink" href="https://antonharbers.github.io/Odin-WeatherApp/" target="_blank">
+                <img class="WorkLinkImage" src="./src/images/link.png" alt="">
+              </a>
+              <a class="WorkLink" href="https://github.com/AntonHarbers/Odin-WeatherApp" target="_blank">
+                <img class="WorkLinkImage" src="./src/images/github.png" alt="">
+              </a>
+          </div> */
+
+
+
 @keyframes workRotation {
     from{
         transform: rotate(-2deg);
@@ -24,3 +130,4 @@
         transform: rotate(1deg);
     }
 }
+

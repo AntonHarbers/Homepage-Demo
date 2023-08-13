@@ -15,7 +15,7 @@
     <div class="main"></div>
     <div id="Container">
       <header>
-        <img src="src/images/logo.png" alt="logo" />
+        <img src="src/images/logo.png" id="logoImage" alt="logo" />
         <nav>
           <ul>
             <li>
@@ -76,11 +76,32 @@
       </header>
       <div id="AboutContainer">
         <h1>About</h1>
-        <h3>Welcome to my Portfolio Page. My name is Anton Harbers and I'm an aspiring <span class="color">Software</span> Developer with a love for <span class="color">functional</span> and <span class="color">clean</span> code.</h3>
+        <h3>My name is Anton Harbers and I'm an aspiring <span class="color">Software</span> Developer with a love for <span class="color">functional</span> and <span class="color">clean</span> code.</h3>
         <h3>I've been using computers since I was <span class="color">tiny</span> and everything I learn brings me one step closer to understanding the <span class="color">magic</span> of our time.</h3>
         <h3>If you need any web/game/app projects or would like to collab on something interesting <span class="color">hit</span> me up</h3>
       </div>
-      <div id="WorkContainer">Portfolio</div>
+      <div id="WorkContainer">
+        <h2>My Work</h2>
+        <div class="WorkItemContainer">
+          <div class="WorkImage">
+            <iframe src="https://antonharbers.github.io/Odin-WeatherApp/" frameborder="0"></iframe>
+          </div>
+          <div class="WorkInfo">
+            <h3>Weather App</h3>
+            <p>Weather app made with HTML, CSS and Javascript</p>
+            <div class="WorkLinks">
+              <a class="WorkLink" href="https://antonharbers.github.io/Odin-WeatherApp/" target="_blank">
+                <img class="WorkLinkImage" src="./src/images/link.png" alt="">
+              </a>
+              <a class="WorkLink" href="https://github.com/AntonHarbers/Odin-WeatherApp" target="_blank">
+                <img class="WorkLinkImage" src="./src/images/github.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
       <div id="ContactContainer">Contact Me</div>
       <footer>© Anton Harbers 2023</footer>
     </div>

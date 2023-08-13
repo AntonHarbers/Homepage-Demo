@@ -72,3 +72,7 @@ footer{
     font-weight: bold;
     letter-spacing: 2px;    
 }
+
+a{
+    z-index: 10;
+}

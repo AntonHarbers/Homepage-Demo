@@ -1,9 +1,10 @@
 
-img{
+#logoImage{
     width: 100px;
     height: auto;
     animation: logoAnim 5s linear .5s infinite;
     transform: rotate(-25deg);
+    border-radius: 50%;
 }
 
 header>h1{
