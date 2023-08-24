@@ -4,8 +4,9 @@
     margin-bottom: 2rem;
     width: 80%;
     min-height: 500px;
-    height: 50vh;
-    max-height: 1000px;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     transform: rotate(-10deg);
     display: flex;
     flex-direction: column;
@@ -17,14 +18,14 @@
 }
 
 #WorkContainer>h2{
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
     color: #FAF9F6;
     text-shadow: 0px 0px 10px #FAF9F6;
     background-color: transparent;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .WorkItemContainer{
@@ -36,20 +37,23 @@
     margin: 1rem;
 }  
 
-iframe{
-    width: 100%;
-    height: 100%;
+.WorkImage>img{
+    width: 60%;
+    max-width: 1000px;
+    min-width: 300px;
+    height: auto;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #fff;
 }
 
+
 .WorkImage{
     width: 100%;
-    height: 50%;
     background-color: transparent;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .WorkInfo{
@@ -57,6 +61,9 @@ iframe{
     background-color: transparent;
     border-radius: 10px;
     display: flex;
+    max-width: 1000px;
+    min-width: 300px;
+    width: 60%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -107,20 +114,20 @@ iframe{
     margin-bottom: 1rem;
 }
 
-/* <h2>My Work</h2>
-       
-          <div class="WorkInfo">
-            <h3>Weather App</h3>
-            <p>Weather app made with HTML, CSS and Javascript</p>
-                          <a class="WorkLink" href="https://antonharbers.github.io/Odin-WeatherApp/" target="_blank">
-                <img class="WorkLinkImage" src="./src/images/link.png" alt="">
-              </a>
-              <a class="WorkLink" href="https://github.com/AntonHarbers/Odin-WeatherApp" target="_blank">
-                <img class="WorkLinkImage" src="./src/images/github.png" alt="">
-              </a>
-          </div> */
+.WorkLinks>a>img{
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 50%;
+    transition: all .1s ease-in-out;
 
+}
 
+.WorkLinks>a>img:hover{
+    cursor: pointer;
+    color: #FAF9F6;
+    box-shadow: 0px 0px 20px #FAF9F6;
+    scale: 1.5;
+}
 
 @keyframes workRotation {
     from{
