@@ -1,19 +1,21 @@
 #ContactContainer{
-    background-color: #faf9f617;
+    background-color: #faf9f606;
     margin-top: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
     width: 80%;
-    min-height: 500px;
-    height: 50vh;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     max-height: 1000px;
-    transform: rotate(-10deg);
+    transform: rotate(1deg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: var(--offwhite);
-    animation: workRotation 11s alternate .05s infinite;
+    animation: aboutRotation 10s alternate .1s infinite;
     box-shadow: 0px 0px 10px 0px #fff;
+    margin-bottom: 10rem;
 }
 
 #ContactContainer>h2{
@@ -64,4 +66,36 @@ i{
 
 #ContactContainer a{
     color: white
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input[type="text"],input[type="email"],textarea{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+input[type="submit"]{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+    cursor: pointer;
 }

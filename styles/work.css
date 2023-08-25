@@ -1,5 +1,5 @@
 #WorkContainer{
-    background-color: #faf9f617;
+    background-color: #faf9f606;
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 80%;
@@ -16,6 +16,8 @@
     animation: workRotation 11s alternate .05s infinite;
     box-shadow: 0px 0px 10px 0px #fff;
 }
+
+
 
 #WorkContainer>h2{
     font-size: 3rem;
