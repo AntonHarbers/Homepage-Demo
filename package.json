@@ -1,0 +1,15 @@
+{
+  "name": "odin-portfolio",
+  "version": "1.0.0",
+  "description": "[Live Link](https://antonharbers.github.io/Odin-Portfolio/)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}
