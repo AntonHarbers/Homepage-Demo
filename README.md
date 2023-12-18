@@ -2,7 +2,7 @@
 
 A Portfolio page created using HTML, CSS and Javascript for the Odin Project.
 
-[Live Link](https://antonharbers.github.io/Odin-Portfolio/)
+[Live Link](https://antonharbers.github.io/Homepage-Demo/)
 
 ![Screenshot of Webpage](/src/Images/repoImage.png)
 
