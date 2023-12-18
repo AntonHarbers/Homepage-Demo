@@ -1,0 +1,65 @@
+header > h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #faf9f6;
+}
+
+header {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+svg {
+  width: 40px;
+  color: #faf9f6;
+  height: auto;
+}
+
+svg:hover {
+  opacity: 75%;
+}
+
+svg:active {
+  opacity: 50%;
+}
+
+#logoImage {
+  width: 100px;
+  height: auto;
+  animation: logoAnim 5s linear 0.5s infinite;
+  transform: rotate(-25deg);
+  border-radius: 50%;
+}
+
+@keyframes logoAnim {
+  0% {
+    transform: rotate(-25deg);
+    transform: scale(1);
+  }
+  20% {
+    transform: rotate(-25deg);
+  }
+  40% {
+    transform: rotate(0deg);
+    transform: scale(0.95);
+  }
+  60% {
+    transform: rotate(25deg);
+  }
+  80% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-25deg);
+    transform: scale(1);
+  }
+}

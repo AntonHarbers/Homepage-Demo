@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <script src="src/script.js" defer></script>
+    <!-- FAVICON -->
     <link
       rel="shortcut icon"
-      href="src/favicon/favicon.ico"
+      href="src/Images/favicon/favicon.ico"
       type="image/x-icon"
     />
+    <!-- Dav Icons-->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
@@ -24,7 +27,7 @@
     <div class="main"></div>
     <div id="Container">
       <header>
-        <img src="src/images/logo.png" id="logoImage" alt="logo" />
+        <img src="src/images/images/logo.png" id="logoImage" alt="logo" />
         <nav>
           <ul>
             <li>
@@ -138,7 +141,7 @@
         <div class="WorkItemContainer">
           <div class="WorkImage">
             <img
-              src="src/images/yogalana.png"
+              src="src/images/images/yogalana.png"
             ></img>
           </div>
           <div class="WorkInfo">
@@ -172,7 +175,7 @@
         <div class="WorkItemContainer">
           <div class="WorkImage">
             <img
-              src="src/images/weather.png"
+              src="src/images/images/weather.png"
             ></img>
           </div>
           <div class="WorkInfo">
@@ -203,7 +206,7 @@
         <div class="WorkItemContainer">
           <div class="WorkImage">
             <img
-              src="src/images/ticTacToe.png"
+              src="src/images/images/ticTacToe.png"
             ></img>
           </div>
           <div class="WorkInfo">
@@ -234,7 +237,7 @@
         <div class="WorkItemContainer">
           <div class="WorkImage">
             <img
-              src="src/images/etchSkech.png"
+              src="src/images/images/etchSkech.png"
             ></img>
           </div>
           <div class="WorkInfo">
@@ -265,7 +268,7 @@
         <div class="WorkItemContainer">
           <div class="WorkImage">
             <img
-              src="src/images/cvApp.png"
+              src="src/images/images/cvApp.png"
             ></img>
           </div>
           <div class="WorkInfo">
@@ -306,11 +309,10 @@
             rows="10"
             placeholder="Message"
           ></textarea>
-          <input type="submit" value="Send"/>
+          <input type="submit" value="Send" id="submitBtn"/>
         </form>
       </div>
       <footer>© Anton Harbers 2023</footer>
     </div>
   </body>
-  <script src="script.js"></script>
 </html>

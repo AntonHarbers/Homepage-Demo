@@ -1,0 +1,121 @@
+.WorkInfo > h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #faf9f6;
+  text-shadow: 0px 0px 10px #faf9f6;
+  background-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.WorkInfo > p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #faf9f6;
+  text-shadow: 0px 0px 10px #faf9f6;
+  background-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.WorkLinks > a > img {
+  background-color: white;
+  border: 10px solid white;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+}
+
+.WorkLinks > a > img:hover {
+  cursor: pointer;
+  color: #faf9f6;
+  box-shadow: 0px 0px 20px #faf9f6;
+  scale: 1.5;
+}
+
+#WorkContainer > h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #faf9f6;
+  text-shadow: 0px 0px 10px #faf9f6;
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
+
+.WorkImage > img {
+  width: 60%;
+  max-width: 1000px;
+  min-width: 300px;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.WorkItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 1rem;
+}
+
+.WorkImage {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.WorkInfo {
+  padding-top: 1rem;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  max-width: 1000px;
+  min-width: 300px;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.WorkLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  margin-top: 1rem;
+}
+
+.WorkLink {
+  background-color: transparent;
+}
+
+.WorkLinkImage {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+}
+
+.WorkLinkImage:hover {
+  opacity: 75%;
+}
+
+#WorkContainer {
+  min-height: 500px;
+  transform: rotate(-10deg);
+  animation: workRotation 11s alternate 0.05s infinite;
+}
+
+@keyframes workRotation {
+  from {
+    transform: rotate(-2deg);
+  }
+  to {
+    transform: rotate(1deg);
+  }
+}

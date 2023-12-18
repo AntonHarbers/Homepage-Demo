@@ -1,0 +1,92 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+  font-size: 1.2rem;
+}
+
+input[type='text']:hover,
+input[type='email']:hover,
+textarea:hover,
+input[type='submit']:hover {
+  background-color: white;
+  color: black;
+}
+
+input[type='submit']:active {
+  background-color: black;
+  color: white;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+textarea:focus {
+  background-color: white;
+  color: black;
+}
+
+input[type='submit'] {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+i {
+  font-size: 3rem;
+  background-color: transparent;
+}
+
+#ContactContainer > h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #faf9f6;
+  text-shadow: 0px 0px 10px #faf9f6;
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
+
+#ContactContainer > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.socialLink {
+  padding: 10px;
+  background-color: transparent;
+}
+
+#ContactContainer {
+  max-height: 1000px;
+  animation: aboutRotation 10s alternate 0.1s infinite;
+}
+
+@keyframes contactRotation {
+  from {
+    transform: rotate(1deg);
+  }
+  to {
+    transform: rotate(-2deg);
+  }
+}

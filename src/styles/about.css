@@ -1,0 +1,61 @@
+div#AboutContainer h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #faf9f6;
+  text-shadow: 0px 0px 10px #faf9f6;
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
+
+div#AboutContainer h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  min-width: 300px;
+  max-width: 50vw;
+  width: 100%;
+}
+
+.FrameworkIconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 80%;
+}
+
+.FrameworkIconContainer i {
+  font-size: 4rem;
+  margin-right: 1rem;
+  color: #faf9f6;
+  text-shadow: 0px 0px 2px #faf9f6;
+  transition: all 0.1s ease-in-out;
+}
+
+.FrameworkIconContainer i:hover {
+  cursor: pointer;
+  color: #faf9f6;
+  text-shadow: 0px 0px 20px #faf9f6;
+  scale: 1.5;
+}
+
+#AboutContainer {
+  max-height: 1000px;
+  animation: aboutRotation 10s alternate 0.1s infinite;
+}
+
+@keyframes aboutRotation {
+  from {
+    transform: rotate(1deg);
+  }
+  to {
+    transform: rotate(-2deg);
+  }
+}
